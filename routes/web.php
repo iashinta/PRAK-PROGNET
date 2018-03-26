@@ -19,3 +19,4 @@ Route::resource('barang','BarangController');
 Route::post('/satuan', 'BarangController@storeSatuan');
 Route::get('/satuan', 'BarangController@createSatuan');
 Route::get('/kategori', 'KategoriController@createKategori');
+Route::resource('/pegawai', 'PegawaiController');
