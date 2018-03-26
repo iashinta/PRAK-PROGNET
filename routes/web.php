@@ -18,3 +18,4 @@ Route::get('/', function () {
 Route::resource('barang','BarangController');
 Route::post('/satuan', 'BarangController@storeSatuan');
 Route::get('/satuan', 'BarangController@createSatuan');
+Route::get('/kategori', 'KategoriController@createKategori');
